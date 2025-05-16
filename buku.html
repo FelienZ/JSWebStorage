@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Buku</title>
+    <style>
+        body{
+            background: url('pic/denim.png');
+            font-family: Cal Sans;
+        }
+        .container{
+            width: 600px;
+            background-color: #FBFBFB;
+            margin: 5vh auto;
+            padding: 20px;
+            border-radius: 9px;
+            box-sizing: border-box;
+        }
+        .container img{
+            max-width: 50px;
+            float: right;
+            margin-bottom: 20px;
+            border-radius: 99px;
+            border: 2px solid darkgray;
+        }
+        .container img:hover{
+            opacity: 0.7;
+            animation: efek 0.5s forwards;
+        }
+        .container h2{
+            margin: 0;
+            text-align: center;
+        }
+        .container hr{
+            max-width: 300px;
+        }
+        form{
+            text-align: center;
+            margin-top: 3vh;
+        }
+        form input, form button{
+            padding: 5px;
+            margin-right: 5px;
+        }
+        form input{
+            max-width: 300px;
+            border-radius: 5px;
+        }
+        form button{
+            background-color: #3B71CA;
+            color: white;
+            border: 1px solid transparent;
+            width: 30px;
+            padding: 6px;
+            border-radius: 3px;
+        }
+        form button:hover{
+            background-color: #295397;
+            border: 1px solid dimgray;
+        }
+        ol{
+            background-color: rgb(224, 223, 223);
+            margin: 10px;
+            border-radius: 5px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Comfortaa:wght@700&family=IBM+Plex+Sans+Devanagari:wght@700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Koleksi Buku <img src="pic/waifu.jpg" alt="jab"></h2>
+        <br>
+        <hr>
+    <form action="" id="form">
+        <input type="text" id="nama" placeholder="Judul Buku">
+        <input type="text" id="penulis" placeholder="Penulis">
+        <button type="submit"><i class="fa-solid fa-plus"></i></button>
+    </form>
+    <ol id="daftar" type="I">
+
+    </ol>
+</div>
+    <script src="script/scriptx.js"></script>
+</body>
+</html>
